@@ -35,19 +35,31 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
 }
+.imagen{
+    margin: 0 auto;
+}
 
 .titulo{
     margin-top: 5px;
     font-size: 2rem;
 }
 .price{
-    margin-top: 5px;
+    margin-top: 15px;
     font-weight: bold;
     font-size: 2rem;
 }
 .descripcion{
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-
+.boton{
+    background-color: #EAD7E5;
+    max-width: max-content;
+    padding: 10px;
+    margin: 0 auto;
+}
+.boton:hover{
+    border: 1px solid #000000;
+}
 
 
