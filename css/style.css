@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-attachment: fixed;
+    font-size: 1.5rem;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,300px));
+    grid-template-rows: repeat(auto-fit,500px);
+    gap: 2em;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    justify-content:center;
+    
+}
+.items .product{
+    
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    margin-top: 5px;
+    font-size: 2rem;
+}
+.price{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.descripcion{
+    margin-top: 5px;
+}
+
+
+
